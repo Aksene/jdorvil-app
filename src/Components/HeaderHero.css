@@ -1,0 +1,118 @@
+.home-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-column-gap: 1.5rem; */
+}
+
+.header-wrap {
+  top: -121px;
+  margin-bottom: -121px;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  /* z-index: 0; */
+  background-color: var(--dark-color);
+}
+
+.header-wrap img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  filter: blur(1.5px);
+  filter: brightness(35%);
+  /* z-index: -1; */
+}
+
+.header-wrap .header_text {
+  z-index: 1;
+  top: 50px;
+  position: relative;
+  text-align: center;
+  color: var(--light-color);
+  padding: 50px;
+  font-size: large;
+}
+
+.header_text h1 {
+  font-size: 4.5rem;
+}
+.header_text {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+.header_text h2 {
+  font-size: 16pt;
+  line-height: 1;
+  font-weight: 500;
+  font-style: italic;
+}
+a {
+  /* z-index: 1; */
+}
+
+.shadow__btn {
+  z-index: 1;
+  padding: 10px 20px;
+  border: none;
+  font-size: 12px;
+  color: var(--light-color);
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: var(--brand-color);
+  box-shadow: 0 0 25px var(--hover-color);
+}
+
+.shadow__btn:hover {
+  transition: background-color 0.5s ease;
+  background: var(--dark-color);
+  box-shadow: 0 0 5px var(--brand-color), 0 0 25px var(--brand-color),
+    0 0 50px var(--brand-color), 0 0 100px var(--brand-color);
+}
+
+@media (max-width: 900px) {
+  .header-wrap .header_text {
+    z-index: 1;
+    top: 150px;
+    position: relative;
+    text-align: center;
+    color: var(--light-color);
+    padding: 0px;
+    font-size: large;
+  }
+  .header_text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    padding: 0px;
+  }
+  .header-wrap {
+    top: -80px;
+    margin-bottom: -121px;
+    height: 400px;
+    width: 100%;
+  }
+  .header_text h1 {
+    font-size: 2.9rem;
+  }
+  .header_text h2 {
+    font-size: 16pt;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+}

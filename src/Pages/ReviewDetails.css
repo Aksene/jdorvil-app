@@ -1,0 +1,47 @@
+.detail-wrap {
+  margin: 0 30px;
+  font-family: "Poppins";
+  /* background: #f1f1f1; */
+  color: black;
+}
+/* review list */
+.detail-review-card {
+  background: white;
+  margin: 60px auto;
+  padding: 1px 20px 20px 90px;
+  position: relative;
+}
+.detail-review-card .detail-rating {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  background: #8e2ad6;
+  font-size: 2em;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  color: black;
+}
+
+.detail-rating p {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+
+  color: black;
+}
+.detail-rating h5 {
+  position: absolute;
+  font-size: large;
+  top: -20px;
+  left: 10px;
+
+  color: black;
+}
+.detail-review-card h2 {
+  margin-bottom: 0;
+}
+.detail-review-card small {
+  margin-right: 10px;
+  color: #777;
+}

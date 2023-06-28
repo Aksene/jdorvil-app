@@ -1,0 +1,88 @@
+.poster-bg {
+  /* background-image: url("/assets/fit7.jpg"); */
+  height: 100%;
+  width: 45%;
+}
+
+.poster-container {
+  padding-top: 5rem;
+  /* background-color: #040507 !important; */
+  background-color: black;
+  /* background-image: linear-gradient(to right, #040507, var(--dark-color)); */
+  display: flex;
+}
+.poster-text_container {
+  /* position: absolute;
+  left: 47rem; */
+  width: 45%;
+}
+
+.poster-text_header {
+  letter-spacing: 1.15px;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 0.8;
+}
+
+.poster-text_header h1 {
+  font-size: 60pt;
+  line-height: 0.2;
+}
+.poster-text_header h2 {
+  padding-left: 1px;
+  font-size: 30pt;
+  font-weight: 500;
+  line-height: 0.2;
+}
+.poster-text_header h4 {
+  font-size: 16pt;
+  line-height: 1;
+  font-weight: 200;
+  font-style: italic;
+  line-height: 1;
+}
+.poster-text_container p {
+  /* font-weight: 600;
+  font-style: normal;
+  font-size: 16pt;
+  text-align: left; */
+  padding-left: 4rem;
+  line-height: 2;
+  font-size: 15pt;
+  font-weight: 600;
+  text-align: left;
+  letter-spacing: 1px;
+  /* font-style: italic; */
+}
+
+@media (max-width: 900px) {
+  .poster-bg {
+    /* background-image: url("/assets/fit7.jpg"); */
+    height: 100%;
+    width: 100%;
+  }
+  .poster-text_header {
+    padding: 1rem;
+  }
+  .poster-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .poster-text_header h1 {
+    font-size: 30pt;
+  }
+  .poster-text_header h2 {
+    font-size: 20pt;
+  }
+  .poster-text_header h4 {
+    font-size: 15pt;
+  }
+  .poster-text_container p {
+    font-size: 13pt;
+    padding-left: 1rem;
+  }
+  .poster-text_container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,119 @@
+.divider-wrap {
+  /* color: #ffffff; */
+  background-color: var(--brand-color);
+  text-align: center;
+}
+
+.divider-section {
+  padding: 2rem;
+}
+
+.divider-section h1 {
+  width: 710px;
+  font-size: 3.75rem;
+  margin: 60px auto 0;
+}
+
+.divider-section p {
+  width: 710px;
+  font-size: 1.5rem;
+  margin: 20px auto 0;
+}
+
+.divider-links {
+  padding: 50px;
+}
+
+.divider-links a {
+  z-index: 1;
+  padding: 20px 30px;
+  border: none;
+  font-size: 12px;
+  color: var(--light-color);
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  margin: 2rem;
+}
+
+.divider-links a {
+  font-size: 1rem;
+  color: var(--mid-color);
+  background: var(--light-color);
+  box-shadow: 0 0 25px var(--hover-color);
+}
+
+.divider-links a:hover {
+  transition: background-color 0.5s ease;
+  color: var(--light-color);
+  background: var(--dark-color);
+  box-shadow: 0 0 5px var(--mid-color), 0 0 25px var(--mid-color),
+    0 0 50px var(--mid-color), 0 0 100px var(--mid-color);
+}
+.divider-section_serviceLink {
+  border-color: var(--light-color);
+  /* color: #8797af; */
+  border-width: 1px;
+  border-style: none none solid;
+  padding: 0;
+}
+
+.divider-section_serviceLink:hover {
+  border-color: #8797af;
+  color: #8797af;
+}
+
+@media (max-width: 900px) {
+  .divider-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .divider-section h1,
+  .divider-section p {
+    width: 100%;
+    font-size: 3rem;
+    margin: auto;
+  }
+  .divider-section p {
+    width: 100%;
+    font-size: 1.75rem;
+    padding-top: 2rem;
+  }
+  .divider-links {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5rem;
+    width: 80%;
+    height: 100%;
+  }
+  .divider-links a {
+    font-size: 1rem;
+    color: var(--mid-color);
+    background: var(--light-color);
+    box-shadow: 0 0 25px var(--hover-color);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .divider-links a {
+    padding: 0px;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--mid-color);
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    margin: 0rem;
+  }
+}

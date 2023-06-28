@@ -1,0 +1,97 @@
+.serviceDetail-wrap {
+  background-color: var(--light-color);
+  /* background-image: linear-gradient(black, var(--dark-color)); */
+  color: var(--dark-color);
+  text-align: left;
+  margin-top: -20px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: inset 0px 10px 10px var(--brand-color),
+    inset 0px -10px 10px var(--brand-color);
+  /* box-shadow: inset 0px -10px 5px var(--dark-color); */
+}
+
+.serviceDetail-cards {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  /* padding-left: 15rem;
+  padding-right: 15rem; */
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.service-card {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  padding: 2rem;
+  width: 70%;
+  /* background: rgba(71, 119, 142, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(71, 119, 142, 1); */
+  background: rgba(110, 83, 120, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(110, 83, 120, 1);
+}
+
+.service-card_img img {
+  width: 100%;
+  /* height: 100%; */
+  border-radius: 16px;
+  border: 2px solid var(--brand-color);
+}
+
+.service-card_img {
+  display: flex;
+}
+
+.service-card_text {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.service-card_text h4 {
+  line-height: 0.5;
+  font-size: 18pt;
+  font-weight: 800;
+  color: var(--brand-color);
+
+  /* font-style: italic; */
+}
+
+.service-card_text p {
+  font-size: 14.5pt;
+  line-height: 1;
+  font-weight: 400;
+  /* font-style: italic; */
+  line-height: 1;
+  text-align: left;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 900px) {
+  .service-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    width: 100%;
+  }
+  .service-card_text h4 {
+    line-height: 1;
+    font-size: 20pt;
+    font-weight: 800;
+    color: var(--brand-color);
+
+    /* font-style: italic; */
+  }
+}
