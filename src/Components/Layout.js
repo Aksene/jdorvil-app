@@ -150,19 +150,19 @@ const Layout = ({children}) => {
                         <ul>
                             <h3>Socials</h3>
                             <li className="footer-cat_links">
-                                <a href="/services">
+                                <a target="_blank" href="https://instagram.com/">
                                     <span>Instagram</span>
                                 </a>
                             </li>
                             <li className="footer-cat_links">
-                                <a href="/services/#goods">
+                                <a target="_blank" href="https://facebook.com/">
                                     <span>Facebook</span>
                                 </a>
                             </li>
                             <li className="footer-cat_links">
-                                <div>
+                                <a target="_blank" href="https://twitter.com/">
                                     <span>Twitter</span>
-                                </div>
+                                </a>
                             </li>
                         </ul>
                     </div>
