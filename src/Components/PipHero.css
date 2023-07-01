@@ -90,7 +90,7 @@ a {
 
 @media (max-width: 900px) {
   .calendly-widget {
-    height: 550px;
+    height: 650px;
     width: 330px;
     display: flex;
     align-items: center;
@@ -124,15 +124,16 @@ a {
   }
   .pip-figure {
     padding: 0rem;
+    padding-top: 2rem;
     display: flex;
     align-items: center;
-    margin: auto;
+    margin-left: 1rem;
     justify-content: center;
   }
 }
 @media (max-width: 800px) {
   .calendly-inline-widget {
-    height: 530px !important;
-    width: 310px !important;
+    height: 600px !important;
+    width: 320px !important;
   }
 }

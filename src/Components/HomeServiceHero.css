@@ -124,6 +124,7 @@
     gap: 1rem;
     padding-bottom: 5rem;
     text-align: center;
+    width: 80%;
   }
   .text-block_sub {
     font-weight: 400;

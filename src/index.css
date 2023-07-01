@@ -6,6 +6,14 @@
   --hover-color: ##8797af;
 }
 
+/* :root {
+  --brand-color: #6e5378;
+  --dark-color: #f0f3fd;
+  --mid-color: #47778e;
+  --light-color: #0f070b;
+  --hover-color: ##8797af;
+} */
+
 html,
 body {
   overflow-x: clip;

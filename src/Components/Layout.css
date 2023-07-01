@@ -150,6 +150,7 @@
     /* padding: 10px; */
     width: 140px;
     height: auto;
+    padding-left: 0rem;
   }
   .header-image.active {
     position: relative;
@@ -406,6 +407,12 @@ footer {
   }
   .footer-links {
     grid-template-columns: auto;
+    gap: 0px;
+    margin-left: -10px;
+  }
+  .footer-overview,
+  .footer-links_socials {
+    text-align: center;
   }
 }
 @media (max-width: 650px) {

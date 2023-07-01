@@ -94,4 +94,15 @@
 
     /* font-style: italic; */
   }
+  .service-card_text p {
+    font-size: 14pt;
+    line-height: 1.2;
+    word-wrap: break-word;
+  }
+  .service-card_text {
+    padding: 0rem;
+  }
+  .serviceDetail-cards {
+    pad: 2rem;
+  }
 }
